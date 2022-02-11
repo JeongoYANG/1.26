@@ -53,7 +53,7 @@ public class Feb09ServiceImpl implements Feb09Service{
         int n = sc.nextInt();
         int num =0,ct=0;
         int [][]ar = new int[n][n]; //제가 이해한것은 매트릭스가 이중배열이고 5 * 5 라고 생각했을때 총 25개의 공간이 생기는것이라고 이해하고 있습니다
-                                    //근데 개념만 들었을때는 어떤 상황에 어떻게 응용하는것인지를 알기가 힘들어서 좀더 자세히 알고싶습니다
+                                    //근데 개념만 들었을때는 어떤 상황에 어떻게 응용하는것인지를 알기가 힘들어서 좀더 자세히 알고싶습니다.
 
         while(ct<(n*2)-1){
             for(int a=0; a<n; a++){
